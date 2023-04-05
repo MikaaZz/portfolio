@@ -39,7 +39,7 @@ function Navbar() {
   };
 
   return (
-    <AppBar position="static" sx={{ backgroundColor: 'transparent' }}>
+    <AppBar position="fixed" sx={{ backgroundColor: 'transparent' }}>
       <Container maxWidth="xl">
         <Toolbar disableGutters sx={{ gap: '1rem' , width:'100%' }}>
           <AdbIcon sx={{ display: { xs: 'none', md: 'flex' }, mr: 1 }} />
